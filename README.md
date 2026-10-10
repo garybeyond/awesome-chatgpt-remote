@@ -140,6 +140,10 @@ NO_PROXY                 = localhost,127.0.0.1,::1
 
 日志辨认提醒：ChatGPT 日志中的 `hostId=durable` 等连接错误可能属于另一类远程环境连接，不能自动当成手机 Remote Host 的失败原因。网络策略也可能影响 WebSocket Upgrade；OpenAI 的[网络建议](https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps)列出域名与连接要求。
 
+## 同类项目
+
+- [gemini-mac-no-tun](https://github.com/garybeyond/gemini-mac-no-tun) — Gemini 桌面版免 TUN 启动（类似方案，解决同样的问题）
+
 ## 边界与安全
 
 - Mac AppleScript 不创建新的代理服务，不开 TUN，也不修改 `/Applications/ChatGPT.app`。Windows 用户级脚本会影响其他读取代理环境变量的新进程；需要单进程隔离时优先试 Windows 单进程脚本。

@@ -89,6 +89,10 @@ User-level variables do not update already-running apps. Quit ChatGPT normally. 
 | Launcher reports ChatGPT already running | Fully quit ChatGPT before launching it with new variables. |
 | Some Local Projects are missing on mobile | Pairing and project selection are separate. Choose the correct host and Workspace, confirm the project exists on desktop, then check the mobile host/project controls. The mobile landing page may not mirror every desktop view. See [Remote](https://learn.chatgpt.com/docs/remote-connections) and [local environment](https://learn.chatgpt.com/docs/environments/local-environment) docs. |
 
+## Related projects
+
+- [gemini-mac-no-tun](https://github.com/garybeyond/gemini-mac-no-tun) — No-TUN launcher for Gemini desktop (similar approach)
+
 ## Scope and contribution
 
 Remote lets you continue and review Codex work on a connected host; it is not full desktop screen control. See the [OpenAI overview](https://developers.openai.com/blog/mastering-codex-remote-for-engineering). Never publish QR codes, pairing codes, account IDs, tokens, full logs, subscriptions, or private project names. This independent project is not affiliated with OpenAI or Clash Verge. The Mac case was tested on one machine; Windows needs real-world validation.
